@@ -1,0 +1,62 @@
+body {
+    background-color: #F0F0F0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    overscroll-behavior: contain;
+}
+.garden {
+    position: relative;
+    width: 95vw;
+    height: 95vw;
+  /*   width : 200px; */
+  /*   height: 200px; */
+    border: 5px solid #CCC;
+    border-radius: 10px;
+}
+.flower {
+    position: relative;
+    width: 45vw;
+    height: 94vw;
+    float: left;
+  /*   width : 200px; */
+  /*   height: 200px; */
+    border: 2px solid #BBB;
+    border-radius: 10px;
+}
+.plant {
+    position: relative;
+    width: 100%;
+    height: 27vw;
+  /*   width : 200px; */
+  /*   height: 200px; */
+    border: 2px solid #AAA;
+    border-radius: 10px;
+    font-size: 10vw;
+}
+#plant\.f1\.1 {
+    background-color: #FFCC00;
+    font-size: 10vw;
+}
+#plant\.f1\.3 {
+    background-color: #FFCC00;
+    font-size: 3vw;
+    height: 10vw;
+}
+#plant\.f1\.4 {
+    background-color: #FFCC00;
+    font-size: 10vw;
+}
+.myMeter {
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    width: 100%;
+    height: 40%;
+    background-color: #00ff00;
+    border: 2px solid #111;
+    border-radius: 10px;
+}
+#meter\.m2 {
+    background-color: #FF0000;
+}

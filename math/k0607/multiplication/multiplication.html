@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Multiplication educational game for grades K-6 and K-7.">
+    <meta name="author" content="Your Name">
+    <title>Multiplication Game</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body style="overflow-y: hidden">
+    <div class="garden" id="garden" onclick="gardenClick()" style="overflow-y: hidden">
+        <div class="flower" id="flower1" style="width: 45vw;">
+            <div class="plant" id="plant.f1.1" ></div>
+            <div class="plant" id="plant.f1.2" ></div>
+            <div class="plant" id="plant.f1.3">
+                <div class="myMeter" id="meter.m1" >10</div>
+                <div class="myMeter" id="meter.m2" >20</div>
+                <!-- <meter id="meter_1" name="meter_1" value="50" min="0" max="100" style="width:95%;background;:green"></meter><br>
+                <meter id="meter_2" name="meter_2" value="40" min="0" max="100" style="width:95%;background-color;:red"></meter><br> -->
+            </div>
+            <div class="plant" id="plant.f1.4" onclick="commitNumber()"></div>
+            
+        </div>
+        <div class="flower" id="flower2" style="width: 47vw;float:right;overflow-y:scroll;" onscroll="setGuessValue()">
+            <div id="" style="height:3000px; width:100%; background-color: blue;background-image: linear-gradient(red, yellow);">
+                
+                104
+            </div>
+        </div>
+        <div class="ball"></div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
