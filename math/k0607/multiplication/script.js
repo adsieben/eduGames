@@ -109,4 +109,7 @@ function init(){
 
 init();
 
-
+document.body.addEventListener('touchmove', function(event) {
+    event.preventDefault();
+    event.stopPropagation()
+  }, false); 
